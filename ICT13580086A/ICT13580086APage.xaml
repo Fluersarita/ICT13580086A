@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:local="clr-namespace:ICT13580086A"
+	x:Class="ICT13580086A.ICT13580086APage"
+    BackgroundColor="#FBCCE7"
+    Padding="20">
+
+    <ScrollView>
+    
+   <StackLayout
+        BackgroundColor="#FFB7C5"
+        Orientation="Vertical">
+
+        <Label 
+        Text=" Hello Hello Hello"
+        HorizontalTextAlignment="Center"
+        BackgroundColor="#E75480"
+        TextColor="Black"
+        LineBreakMode="TailTruncation"
+        x:Name="firstNameLabel"/>
+        
+        <Label
+        Text="We Love Unicorn"
+        HorizontalTextAlignment="Center"
+        BackgroundColor="#E75480"
+        x:Name="lastNameLabel" />
+
+        <Entry
+            Placeholder="Get Your name"
+            Keyboard="Text"
+            x:Name="firstNameEntry" />
+
+        
+        <Button
+            Text="OK"
+            TextColor="Black"
+            BackgroundColor="#D0B3E1"
+            x:Name="okButton"/>
+
+
+        <DatePicker/>
+        <TimePicker/>
+
+        <Picker
+            x:Name="genderPicker"
+            Title="Get your gender"/>
+
+        
+        <Label
+            x:Name="valueLabel"/>
+        
+        <Slider
+        BackgroundColor="#FAF0BE"
+        Maximum="100"
+        Minimum="0"
+        Value="50"
+        x:Name="mySlider"/>
+
+        
+        <Stepper
+            Maximum="10"
+            Minimum="0"
+            Value="0"
+            Increment="1"
+            x:Name="myStepper" />
+
+        
+        <Switch
+            IsToggled="true"/>
+
+        
+        <Image
+            Source="718ce91a070c.jpg"
+            HeightRequest="160"/>
+
+        <WebView 
+        Source="https://www.youtube.com/"
+        HeightRequest="1000"/>
+        
+
+    </StackLayout>
+
+   </ScrollView>
+    
+    
+</ContentPage>

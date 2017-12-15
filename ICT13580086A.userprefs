@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{171C4B58-2D3C-4335-950A-0D3CA08BE07F}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ICT13580086A/MenuPage.xaml">
+    <Files>
+      <File FileName="ICT13580086A/ICT13580086APage.xaml" Line="19" Column="34" />
+      <File FileName="ICT13580086A/MenuPage.xaml" Line="7" Column="18" />
+      <File FileName="ICT13580086A/tabPage1.xaml" Line="16" Column="1" />
+      <File FileName="ICT13580086A/StackPage.xaml" Line="100" Column="1" />
+      <File FileName="ICT13580086A/GridPage.xaml" Line="45" Column="1" />
+      <File FileName="ICT13580086A/ICT13580086APage.xaml.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.ICT13580086A.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.66678BEA-4D56-41DF-B4D1-D88D0FEE2CC1">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.ICT13580086A.iOS>
+</Properties>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="ICT13580086A.StackPage">
+
+    <ScrollView
+        Orientation="Vertical">
+        <StackLayout
+            Orientation="Vertical"
+            BackgroundColor="#FFDDDD">
+
+            <Button
+                Text="Botton"
+                TextColor="Black"
+                BackgroundColor="#D0B3E1"
+                VerticalOptions="Fill"
+                HeightRequest="100"
+                WidthRequest="100"/>
+
+            <Button
+                Text="Botton"
+                TextColor="Black"
+                BackgroundColor="#FDB4BF"/>
+            <Button
+                Text="Botton"
+                TextColor="Black"
+                BackgroundColor="#A3E7D8"/>
+
+            <ScrollView
+                Orientation="Horizontal">
+                <StackLayout
+                    Orientation="Horizontal"
+                    BackgroundColor="#FDB4BF"
+                    HeightRequest="100">
+                    <Button
+                    Text="Botton"
+                        TextColor="Black"
+                    BackgroundColor="#FFFF88"
+                    HorizontalOptions="FillAndExpand"/>
+                    <Button
+                    Text="Botton"
+                        TextColor="Black"
+                    BackgroundColor="#FFBE7D"
+                    HorizontalOptions="FillAndExpand"/>
+                    <Button
+                    Text="Botton"
+                        TextColor="Black"
+                    BackgroundColor="#FFFF88"
+                    HorizontalOptions="FillAndExpand"/>
+                    <Button
+                    Text="Botton"
+                        TextColor="Black"
+                    BackgroundColor="#FFBE7D"
+                    HorizontalOptions="FillAndExpand"/>
+                    <Button
+                    Text="Botton"
+                        TextColor="Black"
+                    BackgroundColor="#FFFF88"
+                    HorizontalOptions="FillAndExpand"/>
+                    <Button
+                    Text="Botton"
+                        TextColor="Black"
+                    BackgroundColor="#FFBE7D"
+                    HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+            </ScrollView>
+
+            <Entry
+                Placeholder="Input text here"/>
+            <Entry
+                Placeholder="Input text here"/>
+            <Entry
+                Placeholder="Input text here"/>
+            <Entry
+                Placeholder="Input text here"/>
+            <Entry
+                Placeholder="Input text here"/>
+            <Entry
+                Placeholder="Input text here"/>
+            <Entry
+                Placeholder="Input text here"/>
+            <Entry
+                Placeholder="Input text here"/>
+            <Entry
+                Placeholder="Input text here"/>
+            <Entry
+                Placeholder="Input text here"/>
+            <Entry
+                Placeholder="Input text here"/>
+            <Entry
+                Placeholder="Input text here"/>
+            
+
+
+        </StackLayout>
+
+    </ScrollView>
+</ContentPage>

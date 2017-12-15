@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="ICT13580086A.MenuPage"
+    Title="Menu"
+    Icon="HamMenu">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="200"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        
+        <BoxView
+            Color="#FFCCFF"/>
+
+        <StackLayout
+            Orientation="Vertical"
+            VerticalOptions="End"
+            Margin="10">
+
+            <Image
+            Source="https://vignette.wikia.nocookie.net/makeshift-misfits/images/1/15/Pastel_magic_planet_by_missjediflip-d5el9bb.png/revision/latest/scale-to-width-down/492?cb=20150908152053"
+            HeightRequest="100"
+            WidthRequest="100"
+            HorizontalOptions="Start"
+            BackgroundColor="#FF9999"/>
+
+            <Label
+            Text="Sarita Thuamwiset"
+            TextColor="White"
+            FontAttributes="Bold"/>
+            
+            <Label
+            Text="ICT-13580086"
+            TextColor="White"
+            FontAttributes="Bold"/>
+        </StackLayout>
+
+
+        
+        <BoxView
+        Grid.Row="1"
+        Color="#CCCCFF" /> 
+
+        <ScrollView
+            Grid.Row="1">
+            <StackLayout
+                Orientation="Vertical"
+                Padding="20">
+
+            <Label
+                Text="View"
+                TextColor="White"
+                HorizontalTextAlignment="Center"
+                FontAttributes="Bold"/>
+            <Button
+                x:Name="viewButton"
+                Text="All View"
+                BackgroundColor="#FFFFCC"/>
+            <BoxView
+                Color="White"
+                HeightRequest="3"
+                Margin="10"/>
+
+                
+            <Label
+                Text="Layout"
+                TextColor="White"
+                HorizontalTextAlignment="Center"
+                FontAttributes="Bold"/>
+            <Button
+                x:Name="stackButton"
+                Text="Stack Layout"
+                BackgroundColor="#FFFFCC"/>
+                
+           <Button
+                x:Name="gridButton"
+                Text="Grid Layout"
+                BackgroundColor="#FFFFCC"/>
+           <Button
+                x:Name="absoluteButton"
+                Text="Absolute Layout"
+                BackgroundColor="#FFFFCC"/>
+           <BoxView
+                Color="White"
+                HeightRequest="3"
+                Margin="10"/>
+
+            <Label
+                Text="Page"
+                TextColor="White"
+                HorizontalTextAlignment="Center"
+                FontAttributes="Bold"/>
+           <Button
+                x:Name="contentButton"
+                Text="Content Page"
+                BackgroundColor="#FFFFCC"/>
+           <Button
+                x:Name="navButton"
+                Text="Navigation Page"
+                BackgroundColor="#FFFFCC"/>
+           <Button
+                x:Name="tabButton"
+                Text="Tabbed Page"
+                BackgroundColor="#FFFFCC"/>
+           <Button
+                x:Name="carouselButton"
+                Text="Carousel Page"
+                BackgroundColor="#FFFFCC"/>
+                
+                
+            </StackLayout>
+        </ScrollView>
+            
+    </Grid>
+
+</ContentPage>
